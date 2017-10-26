@@ -1,9 +1,13 @@
-/*
- * Estilos de tu proyecto
- */
+/**reutilizable*/
  .text-uppercase {
   text-transform: uppercase;
 }
+.title1{
+  text-align: center;
+  color: #212529;
+}
+
+/*ejercicio*/
  *{
    box-sizing: border-box;
    font-family: 'Montserrat', sans-serif;
@@ -23,21 +27,23 @@ body{
    text-transform: uppercase;
    position: fixed;
    top:0;
+   /*se posciona encima como una capa*/
+   z-index: 1000;
  }
 
  header p{
-     outline: 1px solid blue;
-     display: inline-block;
-     margin-left: 150px;
-     margin-top: 30px;
+   outline: 1px solid blue;
+   display: inline-block;
+   margin-left: 150px;
+   margin-top: 30px;
    }
 header nav{
-   outline: 1px solid red;
-position: relative;
-bottom: 40px;
-right: 20px;
-margin-left: 400px;
-margin-right: 150px;
+  outline: 1px solid red;
+  position: relative;
+  bottom: 40px;
+  right: 20px;
+  margin-left: 400px;
+  margin-right: 150px;
 }
 
  ul{
@@ -133,10 +139,11 @@ a:hover{
 
   height: 900px;
 }
+/*
 #second-block h1{
   text-align: center;
   color: #212529;
-}
+}*/
 
 #start2{
   text-align: center;
@@ -172,4 +179,20 @@ font-size: 20px;
 #second-block img{
   width: 100%;
   margin-bottom: 30px;
+}
+/*tercera seccion*/
+#third-block {
+  background-color: #18bd9b;
+  height: 500px;
+}
+
+#third-block h1{
+  text-align: center;
+  color: white;
+}
+#third-block .paragraph{
+  outline: 1px solid red;
+
+
+  margin-left: 50px;
 }
