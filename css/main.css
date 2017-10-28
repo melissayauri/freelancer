@@ -6,9 +6,16 @@
 .title1{
   text-align: center;
   color: #212529;
-  font-weight: 700;
+  font-size: 50px;
+  /*aplicando espaciado superior e inferior*/
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
-
+/*espaciado laterales del ícono estrella*/
+i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 /*ejercicio*/
 *{
   box-sizing: border-box;
@@ -106,85 +113,119 @@ a:hover{
 }
 /*imagen en la primera sección*/
 #first-block img{
+  /*centrando la imagen*/
   margin-left:40% ;
   margin-top: 150px;
+  /*ancho*/
   width: 18%;
 }
+/*contenedor del texto*/
 #first-block .text{
-  /*outline: 1px solid blue;*/
+  /*centrando los textos en su interior*/
   text-align: center;
   color: white;
 }
+/*titulo de la primera sección*/
 #first-block .text .title-white{
   /*outline: 1px solid red;*/
   font-size: 80px;
-  
-  font-weight: 800;
-  font-style:
+  /*espacio superior e inferior*/
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
-#start1{
+/*posicionando la estrella blanca*/
+#start-white{
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 40px;
 }
-/*aplicando linea al icono*/
-#start1:after {
+
+/*aplicando línea laterale a la estrella*/
+#start-white:after {
+  /*no se aplica ningun texto*/
   content: " ";
+  /*se posiciona al lado de la estrella*/
   display: inline-block;
-  width: 200px;
-  height: 10px;
+  /*tamaño de la linea*/
+  width: 100px;
+  height: 5px;
+  /*color de fondo*/
   background: white;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
 }
-#start1:before {
+#start-white:before {
+  /*no se aplica ningun texto*/
   content: " ";
+  /*se posiciona al lado de la estrella*/
   display: inline-block;
-  width: 200px;
-  height: 10px;
+  /*tamaño de la linea*/
+  width: 100px;
+  height: 5px;
+  /*color de fondo*/
   background: white;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
 }
-/*texto*/
+
+/*parráfo de la primera sección*/
 .text p{
   font-size: 20px;
 }
 
 /*segunda sección*/
-
 #second-block{
-  outline: 1px solid green;
-  height: 650px;
-  /*aplicando relleno para que no quede un espacion entre las secciones*/
+  height: 850px;
+  /*aplicando relleno para que no quede un espacio entre las secciones*/
   padding-top: 10px;
+  background-color: red;
 }
-#start2{
+/*icono-estrella negra*/
+#start-black{
+  /*centrando la estrella*/
   text-align: center;
   color: #2c3e50;
-  font-size: 20px;
+  font-size: 40px;
 }
-#start2:after {
+/*añadiendo líneas laterales*/
+#start-black:after {
   content: " ";
+  /*posicionando las lineas al costado de la estrella*/
   display: inline-block;
-  width: 200px;
-  height: 10px;
+  /*tamaño*/
+  width: 100px;
+  height: 5px;
+  /*color de fondo*/
   background: #2c3e50;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
 }
-#start2:before {
+#start-black:before {
   content: " ";
+  /*posicionando las lineas al costado de la estrella*/
   display: inline-block;
-  width: 200px;
-  height: 10px;
+  /*tamaño*/
+  width: 100px;
+  height: 5px;
   background: #2c3e50;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
 }
+/*container de las imágenes*/
 #second-block .container{
   /*outline: 1px solid blue;*/
-  margin:20px 30px 0px 100px;
+  /*posicionamiento en el centro*/
+  margin:20px 30px 0px 120px;
 }
+/*columnas de las imágenes*/
 #second-block .box{
   /*outline: 1px solid red;*/
+  /*las imagenes se colocan en linea pero se mantiene en bloque*/
   display: inline-block;
   width: 300px;
-  margin: 0px;
+/*espaciado laterales entre cda */
   margin-right: 30px;
-  margin-left: 50px;
+
 }
 #second-block img{
   width: 100%;
@@ -194,57 +235,103 @@ a:hover{
 /*tercera seccion*/
 #third-block {
   background-color: #18bd9b;
-  height: 500px;
-  padding-top: 10px;
+  height: 700px;
 }
 
+/*título de la tercera sección*/
 #third-block h1{
   text-align: center;
   color: white;
+  margin:0;
+  /*espaciado superior e inferior*/
+  padding-top: 90px;
+  padding-bottom: 10px;
+  /*tamaño de la letra*/
+  font-size: 50px;
 }
-
+/*contenedor de los parrafos*/
 #third-block .paragraph{
   /*outline: 1px solid red;*/
   margin-left: 30%;
   width: 50%;
 }
-
+/*parráfos*/
 #third-block .paragraph p{
-  outline: 1px solid blue;
+  /*outline: 1px solid blue;*/
   width: 40%;
+  /*se posicionan en una sola línea pero se mantienen en bloque*/
   display: inline-block;
+  /*espaciado derecho entre cada parrafo*/
   margin-right:20px;
   color: white;
 }
 /*boton download*/
-button{
+.button1{
   color: white;
+  font-size: 18px;
   background-color: #18bd9b;
-  margin-left: 45%;
+  /*posicionamiento en el centro*/
+  margin-top: 20px;
+  margin-left: 40%;
+  /*relleno del boton*/
   padding: 10px;
-  border: 1px solid white;
+  /*borde*/
+  border: 2px solid white;
+  /*borde circular*/
   border-radius: 10px;
 }
 /*cuarta sección*/
 .fourth-block{
-  outline: 1px solid red;
-  height: 500px;
+  /*outline: 1px solid red;*/
+  height: 700px;
+  /*aplicando relleno para que no exista un espacio entre secciones*/
   padding-top: 10px;
 }
+/*formulario*/
 form{
-  margin-left:38%;
-  margin-top: 20px;
-
-}
-form div{
-  border-bottom: 1px solid black;
   width: 40%;
+  /*posicionamiento a la izquierda*/
+  margin-left: 25%;
+  margin-top: 20px;
+  /*relleno del formulario*/
+  padding: 10px;
 }
-form div input{
-background-color: white;
+/* selector por atributo*/
+input[type="text"]{
+  /*espaciado entre cada entrada*/
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border: none;
+  /*borde inferior*/
+  border-bottom: 1px solid #808080;
+  /*posicionamiento debajo de uno*/
+  display: block;
+  color: #808080;
+  font-size: 25px;
+  width: 90%;
+}
+textarea[type="msg"]{
+
+  color:  #808080;
+  font-size: 25px;
+  padding-bottom: 20px;
+  padding-right: 200px;
+  border: none;
+  border-bottom: 1px solid #808080;
+}
+.button2{
+color: white;
+font-size: 18px;
+background-color: #18bd9b;
+/*posicionamiento en el centro*/
 margin-top: 20px;
-margin-bottom: 20px;
-border: none;
+margin-left:5px;
+/*relleno del boton*/
+padding: 10px;
+/*borde*/
+border: 2px solid white;
+/*borde circular*/
+border-radius: 10px;
 }
 /*pie de pagina*/
 footer{
