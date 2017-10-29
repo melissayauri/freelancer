@@ -16,14 +16,15 @@ i {
   margin-left: 10px;
   margin-right: 10px;
 }
-/*ejercicio*/
-*{
-  box-sizing: border-box;
-  /*tipo de letra*/
-  /*font-family: 'Montserrat', sans-serif;*/
-  font-family: 'Lato', sans-serif;
+/*aplicando el tipo de letra*/
+header, h1{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Lato', sans-serif
 }
 
+/*ejercicio*/
 body {
   /*eliminando el margen y relleno del cuerpo*/
   padding: 0;
