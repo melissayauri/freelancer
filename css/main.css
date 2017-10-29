@@ -17,11 +17,12 @@ i {
   margin-right: 10px;
 }
 /*aplicando el tipo de letra*/
-header, h1{
+
+h1{
   font-family: 'Montserrat', sans-serif;
 }
 p{
-  font-family: 'Lato', sans-serif
+  font-family: 'Lato', sans-serif;
 }
 
 /*ejercicio*/
@@ -29,6 +30,7 @@ body {
   /*eliminando el margen y relleno del cuerpo*/
   padding: 0;
   margin : 0;
+
 }
 
 /*encabezado*/
@@ -38,7 +40,7 @@ header{
   color: white;
   /*ocupa todo el ancho del cuerpo*/
   width: 100%;
-  height: 70px;
+  height: 80px;
   /*posicionamiento fijo*/
   position: fixed;
   /*se aplica para que no se genere un espacio en la parte superior*/
@@ -46,25 +48,27 @@ header{
   /*aplicando grosor a la letra*/
   font-weight: 900;
   /*se posciona encima como una capa*/
-  z-index: 1000;
+
  }
 
  /*primer parrafo del encabezado*/
- header p{
+ header h1{
    /*outline: 1px solid blue;*/
    /*toma el tamaño segun su contenido y no colisione con el menu*/
    display: inline-block;
    /*posicionamiento del parrafo*/
    margin-left: 150px;
    margin-top: 30px;
+   font-size: 30px;
  }
  /*menú de navegación*/
  header nav {
    /*outline: 1px solid red;*/
    /*posicionamiento para centrar el menú*/
    position: relative;
-   bottom: 40px;
+   bottom: 60px;
    right: 120px;
+
  }
 
 ul{
@@ -81,7 +85,7 @@ ul{
 
 li{
   /*outline: 1px solid green;*/
-  width: 100px;
+  width: 120px;
   /*la lista se posiciona en una linea pero sigue en bloque*/
   /*display: inline-block;*/
   text-align: center;
@@ -210,6 +214,7 @@ a:hover{
   /*posicionamiento al medio de la estrella*/
   margin-bottom: 10px;
 }
+
 /*container de las imágenes*/
 #second-block .container{
   /*outline: 1px solid blue;*/
@@ -224,8 +229,8 @@ a:hover{
   width: 300px;
 /*espaciado laterales entre cda */
   margin-right: 30px;
-
 }
+
 #second-block img{
   width: 100%;
   margin-bottom: 30px;
@@ -339,9 +344,9 @@ textarea[type="msg"]{
 /*pie de pagina*/
 footer{
   background-color: #2c3e50;
-  height: 270px;
+  height: 280px;
   color: white;
-  outline:1px solid blue;
+  /*outline:1px solid blue;*/
 }
 /*contendenor de las tres columnas*/
 footer .container1{
@@ -367,7 +372,7 @@ footer .container1 .box1{
 /*título de pie de página*/
 footer .title-footer{
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   /*margen entre el título y el parráfo*/
   margin-bottom: 40px;
 }
@@ -401,6 +406,8 @@ footer .box1 .text-green{
 /*último texto*/
 footer .container1 .last-block  {
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   margin-right: 50px;
+  margin-top: 260px;
+  margin-bottom: 0;
 }
