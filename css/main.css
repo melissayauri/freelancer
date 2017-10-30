@@ -47,6 +47,7 @@ header{
   /*aplicando grosor a la letra*/
   font-weight: 900;
   /*se posciona encima como una capa*/
+  z-index: 1000;
 
  }
 
@@ -230,12 +231,44 @@ a:hover{
   width: 300px;
 /*espaciado laterales entre cda */
   margin-right: 30px;
+  position: relative;
 }
 
 #second-block img{
   width: 100%;
   margin-bottom: 30px;
 }
+
+/*incorporando el icono lupa en las imagenes*/
+/*contenedor del icono*/
+.search{
+  /*outline: 1px solid red;*/
+  font-size: 40px;
+  text-align: center;
+  /*posicionamiento del contenedor a la altura de la imagen*/
+  position: absolute;
+  left: 30px;
+  /*tamaño para que sea igual que la imagen*/
+  width: 80%;
+  height: 190px;
+  /*el icono no aparece*/
+  color: transparent;
+
+}
+/*centrando el icono*/
+.search i{
+  margin-top: 30%;
+}
+
+/*el cursor pasa sobre el contenedor del icono que tiene las mismas dimensiones de la imagen*/
+.search:hover {
+  /*agranda la imagen cuando pasa el cursor*/
+  transform:scale(1.3);
+  /*color del icono*/
+  color:white;
+  /*color de fondo*/
+  background-color: #18bd9b;}
+
 
 /*tercera seccion*/
 #third-block {
@@ -434,20 +467,3 @@ footer .container1 .last-block  {
   margin-bottom: 0;
 
 }
-/*incorporando el icono lupa en las imagenes*/
-.search{
-  /*outline: 1px solid red;*/
-  font-size: 40px;
-  text-align: center;
-  position: relative;
-  top: 100px;
-  left: 40px;
-  width: 70%;
-  color: transparent;
-
-}
-
-/*adicional*/
-.search:hover {-webkit-transform:scale(1.3);transform:scale(1.3);
-color:white;
-background-color: #18bd9b;}
