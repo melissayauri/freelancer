@@ -279,11 +279,18 @@ a:hover{
   margin-top: 20px;
   margin-left: 40%;
   /*relleno del boton*/
-  padding: 10px;
+  padding: 15px;
   /*borde*/
   border: 2px solid white;
   /*borde circular*/
   border-radius: 10px;
+}
+/*se efectua cuando el cursor pasa sobre el boton*/
+.button1:hover{
+  /*la letra cambia a color verde y el fondo a blanco*/
+  color:#18bd9b;
+  background-color: white;
+
 }
 /*cuarta sección*/
 .fourth-block{
@@ -340,6 +347,11 @@ textarea[type="msg"]{
   border: 2px solid white;
   /*borde circular*/
   border-radius: 10px;
+}
+
+/*cuando el cursor pasa sobre ello, el fondo cambia de color*/
+.button2:hover{
+  background-color: #28a745;
 }
 
 /*pie de pagina*/
@@ -400,9 +412,18 @@ footer .box1 div i{
   margin-left: 8px;
   margin-top: 20px;
 }
+/*se efectua el cambio al circulo que contiene cada icono cuando el cursor pasa sobre ello*/
+footer .box1 div:hover{
+  /*el fondo cambia a blanco y el color del texto a verde*/
+  background-color: white;
+  color:#18bd9b;
+}
 /*texto en la tercera columna*/
 footer .box1 .text-green{
   color:  #18bd9b;
+}
+footer .box1 .text-green:hover{
+text-decoration: underline;
 }
 /*último texto*/
 footer .container1 .last-block  {
@@ -411,4 +432,11 @@ footer .container1 .last-block  {
   margin-right: 50px;
   margin-top: 260px;
   margin-bottom: 0;
+
 }
+
+
+/*adicional
+.box:hover i{-webkit-transform:scale(1.3);transform:scale(1.3);
+color:white;
+background-color: #18bd9b;}*/
