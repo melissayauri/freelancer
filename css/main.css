@@ -30,7 +30,6 @@ body {
   /*eliminando el margen y relleno del cuerpo*/
   padding: 0;
   margin : 0;
-
 }
 
 /*encabezado*/
@@ -91,6 +90,7 @@ li{
   text-align: center;
   /*sale del contenedor y no se ve, se debe de incorporar overflow*/
   float:right;
+  font-size: 20px;
 }
 
 a {
