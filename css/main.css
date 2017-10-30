@@ -434,9 +434,20 @@ footer .container1 .last-block  {
   margin-bottom: 0;
 
 }
+/*incorporando el icono lupa en las imagenes*/
+.search{
+  /*outline: 1px solid red;*/
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  left: 40px;
+  width: 70%;
+  color: transparent;
 
+}
 
-/*adicional
-.box:hover i{-webkit-transform:scale(1.3);transform:scale(1.3);
+/*adicional*/
+.search:hover {-webkit-transform:scale(1.3);transform:scale(1.3);
 color:white;
-background-color: #18bd9b;}*/
+background-color: #18bd9b;}
