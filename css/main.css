@@ -93,7 +93,7 @@ li{
   float:right;
 }
 
-a{
+a {
   /*outline: 1px solid purple;*/
   /*quitando el subrayado*/
   text-decoration: none;
@@ -102,6 +102,7 @@ a{
   color: #fff;
 }
 /*cuando se posiciona el cursor el color del fondo y letra cambia*/
+
 a:hover{
   /*background: #18bd9b*/
   color: #18bd9b;
